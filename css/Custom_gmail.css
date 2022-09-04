@@ -1,0 +1,206 @@
+body{
+	margin: 0px;
+	padding: 0px;
+    line-height: 1.4286;
+    display: block;
+
+}
+.preminary-side{
+	padding: 45px 15px;
+	margin-top: 6%;
+	font-size: 14px;
+	font-family: "arial";
+	font-weight: normal;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+	width: 40%;
+
+
+}
+.conti{
+	font-size: 16px;
+	font-weight: normal;
+	/*font-weight: 100;*/
+	margin-top: -5px;
+}
+.preminary-side img{
+	margin-top: 40px;
+}
+.preminary-side h2{
+	font-weight: normal;
+	font-size: 22px;
+	margin-top: 10px;
+}
+.email-box{
+	width: 85%;
+	height: 50px;
+	border-radius: 6px;
+	border: 1px solid lightgrey;
+	font-size: 16px;
+	padding-left: 15px;
+	outline: none;
+}
+.email-box:focus{
+	border: 2px solid #1877f2;
+}
+
+.directives p{
+	position: relative;
+	left: -1%;
+}
+.directives a{
+	position: relative;
+	left: -32.3%;
+	text-align: left;
+	padding-left: 0%;
+	color: #1877f2;
+	text-decoration: none;
+	top: -5px;
+
+}
+.directives a:active{
+	background-color: lightblue; 
+
+}
+
+
+.preminary-side button{
+	position: relative;
+	left: -25%;
+	font-size: 15px;
+	
+	color: #1877f2;
+	font-family: "arial";
+	background-color: white;
+	height: 38px;
+	width: 130px;
+	border: none;
+}
+
+.crt:active{
+	background-color: #E6E6FA;
+	border: 2px solid #1877f2;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 2px #E6E6FA;
+	
+	
+}
+.crt:hover{
+	background-color: #E6E6FA;
+}
+.down button{
+	position: relative;
+	left: -90px;
+
+}
+
+
+
+.down input{
+	position: relative;
+	right: -20%;
+	font-size: 15px;
+	border: 1px solid #1877f2;
+	color: white;
+	font-family: "arial";
+	background-color: #1877f2;
+	width: 75px;
+	height: 35px;
+	border-radius: 2px;
+}
+.down input:hover{
+	box-shadow: 0px 0px 0px 1px #1877f2;
+	background-color: blue;
+
+}
+
+.dw-section{
+	text-align: center;
+	padding-bottom: 100px;
+}
+.lang-picker{
+	border: none;
+	font-size: 13px;
+	font-family: "arial";
+	outline: none;
+}
+
+
+.sup1, .sup2, .sup3{
+	font-size: 13px;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: grey;
+}
+.suppor-section{
+	/*margin-right: -550px;*/
+	margin-top: -20px;
+}
+
+label{
+	position: relative;
+	top: -39px;
+	left: 30px;
+	font-size: 16px;
+	color: grey;
+	transition: 0.5s;
+	pointer-events: none;
+	background: transparent;
+}
+.email-box:focus ~ div label{
+	color: blue;
+	font-size: 12px;
+	padding: 3px;
+	background: #fff;
+	top: -65px;
+}
+.email-box:valid ~ div label{
+	color: blue;
+	font-size: 12px;
+	padding: 3px;
+	background: #fff;
+	top: -65px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 650px){
+.preminary-side{
+	width: 90%;
+	border: none;
+	margin-top: 0px;
+	padding-top: 25px
+}
+.lmo{
+	position: relative;
+	margin-left: -5%;
+}
+.crt{
+	position: relative;
+	margin-left: -2%;
+	padding-bottom: +15%;
+}
+
+.down button {
+    position: relative;
+    left: -63px;
+}
+.down input{
+	right: -14%;
+}
+
+	}
